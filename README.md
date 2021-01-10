@@ -29,7 +29,7 @@ you can copy that by hand(cat) or using(xclip):
 ```
 xclip -selection clipboard < ~/.ssh/id_rsa.pub
 ```
-if you don't have xclip:
+If you don't have xclip:
 ```
 sudo apt install xclip
 # or
@@ -40,7 +40,7 @@ sudo pacman -Sy xclip
 <img src=3.jpeg>
 <img src=4.png>
 
-After you اhave copied your pub key, go to your github account, setting, ssh and gpg keys, new ssh key (title  is no important) and add your pub key:
+After you have copied your pub key, go to your github account, setting, ssh and gpg keys, new ssh key (title  is no important) and add your pub key:
 <img src=41.jpeg>
 
 In this part you can check that your ssh working or not:
@@ -58,9 +58,9 @@ git remote add origin git@github.com:username/test.git
 git push -u origin master
 ```
 
-Before running above code, you need to Add repository in github account and using that name instead of test.git >> your_rep_name.git
-You may need to use 'main' instead of 'master'
-Use 'git log' for seeing the name of HEAD
+Before running above code, you need to Add repository in github account and using that name instead of test.git >> your_rep_name.git <br />
+You may need to use 'main' or ... instead of 'master'
+Use 'git log' for seeing the name of HEAD branch, if you didn't change that, it is 'master'
 
 <img src=5.png>
 
