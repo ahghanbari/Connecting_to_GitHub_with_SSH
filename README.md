@@ -12,8 +12,9 @@ Until now we have a unix-like os, open a terminal and run:
 ssh-keygen -t rsa -b 4096 -C "your email address"
 ```
 then read the std-in and anwser them :|
-If you set fingerprint(passwd for you key) every time that you want to use your key you have to give your passwd, then i suggust don't set passwd. 
-Running ssh -agent:
+If you set fingerprint(passwd for you key) every time that you want to use your key you have to give your passwd, then i suggust don't set passwd.
+<br />
+Running ssh-agent:
 
 ```
 eval "$(ssh-agen -s)"
@@ -59,11 +60,12 @@ git push -u origin master
 ```
 
 Before running above code, you need to Add repository in github account and using that name instead of test.git >> your_rep_name.git <br />
-You may need to use 'main' or ... instead of 'master'
+You may need to use 'main' or ... instead of 'master' <br />
 Use 'git log' for seeing the name of HEAD branch, if you didn't change that, it is 'master'
 
 <img src=5.png>
 
 Distorting of the information was unnecessary because they were pub key not private, but better is safe than sorry.
+<br />
 <br />
 babay @_@
