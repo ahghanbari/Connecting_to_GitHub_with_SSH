@@ -23,7 +23,7 @@ eval "$(ssh-agen -s)"
 # if you did not change that:
 ssh-add ~/.ssh/id_rsa
 ```
-<img src=1.jpeg>
+<img src=wel.jpeg>
 
 now it's time for putting public key to github account
 you can copy that by hand(cat) or using(xclip):
