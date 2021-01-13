@@ -23,6 +23,7 @@ eval "$(ssh-agen -s)"
 # if you did not change that:
 ssh-add ~/.ssh/id_rsa
 ```
+And if you don't want to run this 2 command after every restarting, put them to .bashrc or .zshrc or ... <br />
 <img src=wel.jpeg>
 
 now it's time for putting public key to github account
