@@ -17,7 +17,7 @@ If you set fingerprint(passwd for you key) every time that you want to use your 
 Running ssh-agent:
 
 ```
-eval "$(ssh-agen -s)"
+eval "$(ssh-agent -s)"
 
 # ssh-add ~/.ssh/your-key-name
 # if you did not change that:
